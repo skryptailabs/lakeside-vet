@@ -14,9 +14,9 @@ const services = [
 ];
 
 const team = [
-  { name: "Dr. Sarah Chen", role: "Lead Veterinarian", bio: "15+ years in small animal medicine with a focus on internal medicine and geriatric care.", emoji: "👩‍⚕️" },
-  { name: "Dr. James Okafor", role: "Veterinarian", bio: "Specialist in orthopedic surgery and rehabilitation therapy.", emoji: "👨‍⚕️" },
-  { name: "Priya Sharma", role: "Registered Vet Tech", bio: "Certified fear-free professional dedicated to stress-free visits.", emoji: "👩‍🔬" },
+  { name: "Dr. Rebecca Hu", role: "Lead Veterinarian", bio: "15+ years in small animal medicine with a focus on internal medicine and geriatric care.", emoji: "👩‍⚕️" },
+  { name: "Kiran Dhugga", role: "Office Manager", bio: "Keeps the clinic running smoothly — from scheduling to client communications.", emoji: "👨‍💼" },
+  { name: "Akiko Tanaka", role: "Registered Vet Tech", bio: "Certified fear-free professional dedicated to stress-free visits.", emoji: "👩‍🔬" },
 ];
 
 const hours = [
