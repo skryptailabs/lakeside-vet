@@ -15,7 +15,7 @@ const services = [
 
 const team = [
   { name: "Dr. Rebecca Hu", role: "Lead Veterinarian", bio: "15+ years in small animal medicine with a focus on internal medicine and geriatric care.", emoji: "👩‍⚕️" },
-  { name: "Kiran Dhugga", role: "Office Manager", bio: "Keeps the clinic running smoothly — from scheduling to client communications.", emoji: "👨‍💼" },
+  { name: "Kiran Dhugga", role: "Office Manager", bio: "Keeps the clinic running smoothly — from scheduling to client communications.", emoji: "👩‍💼" },
   { name: "Akiko Tanaka", role: "Registered Vet Tech", bio: "Certified fear-free professional dedicated to stress-free visits.", emoji: "👩‍🔬" },
 ];
 
