@@ -14,7 +14,7 @@ const services = [
 ];
 
 const team = [
-  { name: "Dr. Rebecca Hu", role: "Lead Veterinarian", bio: "Over a decade in small animal medicine with a focus on internal medicine and geriatric care.", emoji: "👩‍⚕️" },
+  { name: "Dr. Rebecca Hu", role: "Veterinarian & Founder", bio: "Recently launched Lakeside after years of dreaming about a clinic that puts patient comfort first.", emoji: "👩‍⚕️" },
   { name: "Kiran Dhugga", role: "Office Manager", bio: "Keeps the clinic running smoothly — from scheduling to client communications.", emoji: "👩‍💼" },
   { name: "Akiko Tanaka", role: "Registered Vet Tech", bio: "Certified fear-free professional dedicated to stress-free visits.", emoji: "👩‍🔬" },
 ];
@@ -221,7 +221,7 @@ export default function Home() {
           <div style={{ display: "grid", gap: 48, gridTemplateColumns: isMobile ? "1fr" : "1fr 1fr", alignItems: "center", textAlign: isMobile ? "center" : undefined }}>
             <div>
               <FadeIn>
-                <span className="lv-tag" style={{ marginBottom: 24 }}>Now Welcoming New Patients</span>
+                <span className="lv-tag" style={{ marginBottom: 24 }}>New Clinic, Now Open</span>
               </FadeIn>
               <FadeIn delay={0.1}>
                 <h1 className="lv-serif" style={{ fontSize: "clamp(40px, 5.5vw, 64px)", lineHeight: 1.1, margin: "24px 0", color: "#1a2e1a" }}>
@@ -231,7 +231,7 @@ export default function Home() {
               </FadeIn>
               <FadeIn delay={0.2}>
                 <p style={{ fontSize: 18, lineHeight: 1.7, color: "#4a6350", maxWidth: 520, marginBottom: 36, marginInline: isMobile ? "auto" : undefined }}>
-                  Toronto&apos;s neighbourhood vet clinic offering modern medicine with a gentle touch.
+                  A brand-new vet clinic built from the ground up with modern medicine and patient comfort in mind.
                   Located on The Esplanade — steps from the waterfront.
                 </p>
               </FadeIn>
@@ -262,8 +262,8 @@ export default function Home() {
                 <div style={{ position: "absolute", bottom: -16, right: -16, background: "#fff", borderRadius: 16, padding: "16px 20px", boxShadow: "0 8px 32px rgba(26,46,26,.1)", display: "flex", alignItems: "center", gap: 10 }}>
                   <div style={{ width: 40, height: 40, borderRadius: "50%", background: "#d8f3dc", display: "flex", alignItems: "center", justifyContent: "center" }}>🐾</div>
                   <div>
-                    <div style={{ fontWeight: 700, fontSize: 15 }}>15+ Years</div>
-                    <div style={{ fontSize: 12, color: "#6b8a72" }}>Caring for Toronto Pets</div>
+                    <div style={{ fontWeight: 700, fontSize: 15 }}>Now Open</div>
+                    <div style={{ fontSize: 12, color: "#6b8a72" }}>Accepting New Patients</div>
                   </div>
                 </div>
               </div>
@@ -428,7 +428,7 @@ export default function Home() {
                 <span className="lv-serif" style={{ fontSize: 18, color: "#b7e4c7" }}>Lakeside Veterinary Clinic</span>
               </div>
               <p style={{ fontSize: 14, lineHeight: 1.7, maxWidth: 320, marginInline: isMobile ? "auto" : undefined }}>
-                Compassionate, modern veterinary care on Toronto&apos;s waterfront. Your pet deserves the best — and so do you.
+                A new kind of vet clinic on Toronto&apos;s waterfront — built around comfort, transparency, and modern care.
               </p>
             </div>
             <div>
