@@ -9,12 +9,12 @@ const services = [
   { icon: "💉", title: "Vaccinations", desc: "Core and lifestyle vaccines to keep your pet protected year-round." },
   { icon: "🦷", title: "Dental Care", desc: "Professional cleanings, extractions, and oral health assessments." },
   { icon: "🔬", title: "Diagnostics", desc: "In-house lab, digital X-ray, and ultrasound for fast, accurate results." },
-  { icon: "✂️", title: "Surgery", desc: "Spay/neuter, soft tissue, and orthopedic procedures with modern anesthesia." },
-  { icon: "🚨", title: "Urgent Care", desc: "Same-day sick visits and walk-in availability for unexpected health concerns." },
+  { icon: "✂️", title: "Surgery", desc: "Spay/neuter and soft tissue procedures with modern anesthesia and attentive recovery care." },
+  { icon: "🚨", title: "Same-Day Sick Visits", desc: "Walk-in and same-day appointments available for unexpected health concerns." },
 ];
 
 const team = [
-  { name: "Dr. Rebecca Hu", role: "Lead Veterinarian", bio: "15+ years in small animal medicine with a focus on internal medicine and geriatric care.", emoji: "👩‍⚕️" },
+  { name: "Dr. Rebecca Hu", role: "Lead Veterinarian", bio: "Over a decade in small animal medicine with a focus on internal medicine and geriatric care.", emoji: "👩‍⚕️" },
   { name: "Kiran Dhugga", role: "Office Manager", bio: "Keeps the clinic running smoothly — from scheduling to client communications.", emoji: "👩‍💼" },
   { name: "Akiko Tanaka", role: "Registered Vet Tech", bio: "Certified fear-free professional dedicated to stress-free visits.", emoji: "👩‍🔬" },
 ];
@@ -27,8 +27,8 @@ const hours = [
 
 const testimonials = [
   { name: "Michelle T.", text: "The team at Lakeside genuinely cares. My anxious rescue dog actually enjoys going now.", rating: 5 },
-  { name: "David & Raj K.", text: "Best vet experience in Toronto. Transparent pricing, clear communication, and always on time.", rating: 5 },
-  { name: "Samantha L.", text: "Dr. Chen caught an issue during a routine exam that another clinic missed. Forever grateful.", rating: 5 },
+  { name: "David & Raj K.", text: "Best vet experience in Toronto. Transparent pricing, clear communication, and always on time.", rating: 4 },
+  { name: "Samantha L.", text: "Dr. Hu caught an issue during a routine exam that another clinic missed. Forever grateful.", rating: 5 },
 ];
 
 const NAV_ITEMS = ["Services", "Team", "Testimonials", "Location", "Contact"];
@@ -260,10 +260,10 @@ export default function Home() {
                   <div style={{ position: "absolute", bottom: 0, left: 0, right: 0, height: "40%", background: "linear-gradient(transparent, rgba(45,106,79,.1))" }} />
                 </div>
                 <div style={{ position: "absolute", bottom: -16, right: -16, background: "#fff", borderRadius: 16, padding: "16px 20px", boxShadow: "0 8px 32px rgba(26,46,26,.1)", display: "flex", alignItems: "center", gap: 10 }}>
-                  <div style={{ width: 40, height: 40, borderRadius: "50%", background: "#d8f3dc", display: "flex", alignItems: "center", justifyContent: "center" }}>⭐</div>
+                  <div style={{ width: 40, height: 40, borderRadius: "50%", background: "#d8f3dc", display: "flex", alignItems: "center", justifyContent: "center" }}>🐾</div>
                   <div>
-                    <div style={{ fontWeight: 700, fontSize: 15 }}>4.9 Rating</div>
-                    <div style={{ fontSize: 12, color: "#6b8a72" }}>200+ Google Reviews</div>
+                    <div style={{ fontWeight: 700, fontSize: 15 }}>15+ Years</div>
+                    <div style={{ fontSize: 12, color: "#6b8a72" }}>Caring for Toronto Pets</div>
                   </div>
                 </div>
               </div>
@@ -278,8 +278,8 @@ export default function Home() {
           <FadeIn>
             <div style={{ textAlign: "center", marginBottom: 56 }}>
               <span className="lv-tag">What We Do</span>
-              <h2 className="lv-serif" style={{ fontSize: "clamp(32px, 4vw, 48px)", marginTop: 16 }}>Full-spectrum veterinary care</h2>
-              <p style={{ color: "#4a6350", marginTop: 12, maxWidth: 560, margin: "12px auto 0", fontSize: 17 }}>From routine wellness to urgent interventions — everything under one roof.</p>
+              <h2 className="lv-serif" style={{ fontSize: "clamp(32px, 4vw, 48px)", marginTop: 16 }}>Comprehensive veterinary care</h2>
+              <p style={{ color: "#4a6350", marginTop: 12, maxWidth: 560, margin: "12px auto 0", fontSize: 17 }}>From routine wellness to same-day sick visits — your neighbourhood vet has you covered.</p>
             </div>
           </FadeIn>
           <div className="lv-grid" style={{ gridTemplateColumns: isMobile ? "1fr" : "repeat(3, 1fr)" }}>
