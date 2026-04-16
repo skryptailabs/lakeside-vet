@@ -409,7 +409,7 @@ export default function Home() {
                 <a href="tel:+16478751084" className="lv-btn" style={{ background: "#fff", color: "#1b4332", fontWeight: 700 }}>
                   📞 Call (647) 875-1084
                 </a>
-                <a href="mailto:hello@lakesidevet.ca" className="lv-btn" style={{ background: "rgba(255,255,255,.12)", color: "#fff", border: "1px solid rgba(255,255,255,.2)" }}>
+                <a href="mailto:hello@lakesideveterinary.ca" className="lv-btn" style={{ background: "rgba(255,255,255,.12)", color: "#fff", border: "1px solid rgba(255,255,255,.2)" }}>
                   ✉️ Email Us
                 </a>
               </div>
@@ -444,7 +444,7 @@ export default function Home() {
               <p style={{ fontSize: 14, lineHeight: 2 }}>
                 8 The Esplanade, Toronto<br />
                 (647) 875-1084<br />
-                hello@lakesidevet.ca
+                hello@lakesideveterinary.ca
               </p>
             </div>
           </div>

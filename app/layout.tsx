@@ -32,7 +32,7 @@ export const metadata: Metadata = {
     title: "Lakeside Veterinary Clinic | Toronto",
     description:
       "Compassionate veterinary care on Toronto's waterfront. Now welcoming new patients.",
-    url: "https://lakesidevet.ca",
+    url: "https://lakesideveterinary.ca",
     siteName: "Lakeside Veterinary Clinic",
     locale: "en_CA",
     type: "website",
