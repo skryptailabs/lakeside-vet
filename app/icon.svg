@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" fill="none">
+  <rect width="32" height="32" rx="8" fill="#2d6a4f"/>
+  <!-- Paw print: central pad -->
+  <ellipse cx="16" cy="19" rx="5.5" ry="4.5" fill="#fff"/>
+  <!-- Top-left toe -->
+  <ellipse cx="9.5" cy="13.5" rx="2.2" ry="2.8" fill="#fff" transform="rotate(-15 9.5 13.5)"/>
+  <!-- Top-right toe -->
+  <ellipse cx="22.5" cy="13.5" rx="2.2" ry="2.8" fill="#fff" transform="rotate(15 22.5 13.5)"/>
+  <!-- Mid-left toe -->
+  <ellipse cx="12" cy="11.5" rx="2.2" ry="2.8" fill="#fff" transform="rotate(-5 12 11.5)"/>
+  <!-- Mid-right toe -->
+  <ellipse cx="20" cy="11.5" rx="2.2" ry="2.8" fill="#fff" transform="rotate(5 20 11.5)"/>
+</svg>
