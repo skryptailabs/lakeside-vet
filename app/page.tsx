@@ -374,8 +374,8 @@ export default function Home() {
                 </p>
                 <p style={{ fontSize: 15, color: "#4a6350", marginBottom: 24 }}>
                   📞{" "}
-                  <a href="tel:+14165551234" style={{ color: "#2d6a4f", fontWeight: 600, textDecoration: "none" }}>
-                    (416) 555-1234
+                  <a href="tel:+16478751084" style={{ color: "#2d6a4f", fontWeight: 600, textDecoration: "none" }}>
+                    (647) 875-1084
                   </a>
                 </p>
                 <div>
@@ -406,8 +406,8 @@ export default function Home() {
                 Call us or send a message — we&apos;ll get your pet on the schedule. New patients always welcome.
               </p>
               <div style={{ display: "flex", gap: 16, justifyContent: "center", flexWrap: "wrap" }}>
-                <a href="tel:+14165551234" className="lv-btn" style={{ background: "#fff", color: "#1b4332", fontWeight: 700 }}>
-                  📞 Call (416) 555-1234
+                <a href="tel:+16478751084" className="lv-btn" style={{ background: "#fff", color: "#1b4332", fontWeight: 700 }}>
+                  📞 Call (647) 875-1084
                 </a>
                 <a href="mailto:hello@lakesidevet.ca" className="lv-btn" style={{ background: "rgba(255,255,255,.12)", color: "#fff", border: "1px solid rgba(255,255,255,.2)" }}>
                   ✉️ Email Us
@@ -443,7 +443,7 @@ export default function Home() {
               <h4 style={{ color: "#95d5b2", fontSize: 13, fontWeight: 700, textTransform: "uppercase", letterSpacing: 1.5, marginBottom: 16 }}>Contact</h4>
               <p style={{ fontSize: 14, lineHeight: 2 }}>
                 8 The Esplanade, Toronto<br />
-                (416) 555-1234<br />
+                (647) 875-1084<br />
                 hello@lakesidevet.ca
               </p>
             </div>
